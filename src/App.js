@@ -1,11 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
-import { Main, NavBar } from "./components";
+import { Main, NavBar, Skills } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
       <NavBar />
       <Main />
+      <Skills />
     </BrowserRouter>
   );
 };

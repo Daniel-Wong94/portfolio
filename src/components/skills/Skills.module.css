@@ -1,0 +1,43 @@
+.skillsHeading {
+  font-size: 72px;
+  line-height: 1.05em;
+  font-weight: 800;
+  color: var(--section-main-text-color);
+}
+
+.skillsContentContainer {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "languages frameworks contact" "tools . contact";
+  gap: 75px 125px;
+  margin-top: 100px;
+}
+
+.languages {
+  grid-area: languages;
+}
+
+.frameworks {
+  grid-area: frameworks;
+}
+
+.tools {
+  grid-area: tools;
+}
+
+.contact {
+  grid-area: contact;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+
+.contact > h4 {
+  line-height: 1.1em;
+  font-size: 32px;
+  font-weight: 500;
+}

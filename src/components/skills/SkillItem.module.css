@@ -1,0 +1,14 @@
+.skillItemContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skillItemContainer > h4 {
+  font-size: 32px;
+}
+
+.skillItems > li {
+  font-size: 18px;
+  line-height: 1.6em;
+}
