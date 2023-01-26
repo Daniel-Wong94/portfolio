@@ -1,0 +1,33 @@
+.paddingYxs, .paddingYs, .paddingYm, .paddingYl {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: var(--section-main-bg-color);
+}
+
+.paddingYxs {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.paddingYs {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.paddingYm {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.paddingYl {
+  padding-top: 200px;
+  padding-bottom: 2000px;
+}
+
+.sectionColorMain {
+  background-color: var(--section-main-bg-color);
+}
+
+.sectionColorSkills {
+  background-color: white;
+}

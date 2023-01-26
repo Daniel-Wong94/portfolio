@@ -1,0 +1,20 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLinkContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.navLinkContainer > a {
+  text-decoration: none;
+  color: var(--navlink-primary-color);
+  transition: color 0.7s ease;
+  font-size: 20px;
+}
+
+.navLinkContainer > a:hover {
+  color: var(--navlink-hover-color);
+}

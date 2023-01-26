@@ -1,0 +1,57 @@
+.mainContentContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.mainContentRight {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 65%;
+
+  color: var(--section-main-text-color)
+}
+
+.mainContentRight > h1 {
+  font-size: 140px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.mainContentRight > h2 {
+  font-size: 56px;
+  line-height: 1.1em;
+  font-weight: 500;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background-color: #888888;
+  margin: 6em 0;
+}
+
+.secondaryContentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4%;
+}
+
+.secondaryContentContainer > p {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.btnToProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid var(--section-main-text-color);
+  border-radius: 40px;
+  padding: 12px 62px;
+  color: var(--section-main-text-color);
+  font-size: 30px;
+}
