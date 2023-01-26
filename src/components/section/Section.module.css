@@ -21,3 +21,11 @@
 .sectionColorSecondary {
   background-color: var(--section-secondary-bg-color);
 }
+
+.sectionColorTertiary {
+  background-color: var(--section-tertiary-bg-color);
+}
+
+.sectionColorTertiary2 {
+  background-color: #FFFFFF;
+}

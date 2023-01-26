@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { Main, NavBar, Skills } from "./components";
+import { Main, NavBar, Skills, Experience } from "./components";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <NavBar />
       <Main />
       <Skills />
+      <Experience />
     </BrowserRouter>
   );
 };

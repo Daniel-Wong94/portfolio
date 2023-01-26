@@ -1,0 +1,29 @@
+.experienceItemContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 10px 0;
+  gap: 20px;
+  font-size: 32px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 2;
+}
+
+.info > p {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.info > h4 {
+  font-weight: 500;
+}
+
+.date {
+  flex: 1;
+  line-height: 1.2em;
+  font-weight: 500;
+}
