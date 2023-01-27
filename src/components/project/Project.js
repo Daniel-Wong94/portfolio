@@ -2,6 +2,7 @@ import { Section } from "../section";
 import styles from "./Project.module.css";
 import { DocuSync, Instantgram, Meetup } from "../../assets";
 import ProjectCard from "./ProjectCard";
+import ScrollTopBtn from "../../elements/ScrollTopBtn";
 
 const projects = [
   {
@@ -22,7 +23,7 @@ const projects = [
   },
   {
     image: Meetup,
-    name: "Lets Meetup",
+    name: "Let's Meetup",
     github: "https://github.com/Daniel-Wong94/meetup_Project",
     liveLink: "https://lets-meetup.onrender.com/",
     description:
@@ -36,6 +37,7 @@ const Project = () => {
       <div className={styles.projectContentContainer}>
         <h1>Projects</h1>
         <hr />
+        <ScrollTopBtn />
         <div className={styles.projectContainer}>
           {projects.map((project, idx) => (
             <ProjectCard key={idx} project={project} />

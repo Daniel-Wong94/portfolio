@@ -1,6 +1,7 @@
 import styles from "./Skills.module.css";
 import { Section } from "../section";
 import SkillItem from "./SkillItem";
+import ScrollTopBtn from "../../elements/ScrollTopBtn";
 
 const skillItems = [
   {
@@ -36,6 +37,7 @@ const Skills = () => {
     <Section scrollTo={"skills"} paddingY="l" bgColor="Secondary">
       <h1 className={styles.skillsHeading}>Skills</h1>
       <hr className={styles.divider} />
+      <ScrollTopBtn />
       <div className={styles.skillsContentContainer}>
         {skillItems.map(({ classname, name, skills }, idx) => (
           <div className={styles[classname]} key={idx}>

@@ -37,11 +37,11 @@ const Experience = () => {
           <hr />
           <p>
             <p>
-              One morning, when Gregor Samsa woke from troubled dreams, he found
-              himself transformed in his bed into a horrible vermin. He lay on
-              his armour-like back, and if he lifted his head a little he could
-              see his brown belly, slightly domed and divided by arches into
-              stiff sections.
+              Although I loved medicine and treating patients, there was still
+              something missing from my career. I always found the greatest joy
+              when I'm able to create something. Whether it's my photography,
+              cooking, or cyling; seeing my effort turn into something beautiful
+              or useful to others is what truly gives me meaning.
             </p>
           </p>
         </div>

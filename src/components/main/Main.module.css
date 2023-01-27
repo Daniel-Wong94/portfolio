@@ -4,14 +4,24 @@
   gap: 48px;
 }
 
+.mainImageContainer > img{
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 800px;
+}
+
 .mainContentRight {
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 65%;
-
   color: var(--section-main-text-color)
 }
+
+/* .emphasize {
+  font-style: italic;
+  font-weight: 600;
+} */
 
 .mainContentRight > h1 {
   font-size: 140px;
@@ -30,6 +40,16 @@
   height: 1px;
   background-color: #888888;
   margin: 6em 0;
+}
+
+.socialLinksContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons > svg {
+  height: 32px;
 }
 
 .secondaryContentContainer {
@@ -54,4 +74,10 @@
   padding: 12px 62px;
   color: var(--section-main-text-color);
   font-size: 30px;
+  transition: all 0.7s ease;
+}
+
+.btnToProjects:hover {
+  color: var(--section-tertiary-bg-color);
+  background-color: var(--section-tertiary3-bg-color)
 }

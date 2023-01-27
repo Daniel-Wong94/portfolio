@@ -1,25 +1,16 @@
-.navbarContainer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navLinkContainer {
-  display: flex;
-  gap: 20px;
-}
-
-.navLinkContainer > a {
+.scrollBtn {
   position: relative;
+  font-size: 24px;
+  font-weight: 500;
   text-decoration: none;
   color: var(--navlink-primary-color);
   transition: color 0.7s ease;
-  font-size: 20px;
 }
 
-.navLinkContainer > a::before {
+.scrollBtn::before {
   content: "";
   position: absolute;
-  bottom: 20px;
+  bottom: -6px;
   left: 0;
   width: 0;
   height: 2px;
@@ -27,11 +18,11 @@
   transition: all 0.3s ease-in-out;
 }
 
-.navLinkContainer > a:hover {
-  color: var(--navlink-hover-color);
+.scrollBtn:hover {
+  color: var(--navlink-hover-color)
 }
 
-.navLinkContainer > a:hover::before {
+.scrollBtn:hover::before {
   width: 100%;
   background-color: var(--navlink-hover-color);
 }

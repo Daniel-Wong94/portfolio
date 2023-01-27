@@ -3,5 +3,6 @@ import Instantgram from "./Instantgram.png";
 import Meetup from "./Meetup.png";
 import Logo from "./Logo.png";
 import Main from "./Main.png";
+import Headshot from "./Headshot.png";
 
-export { DocuSync, Instantgram, Meetup, Logo, Main };
+export { DocuSync, Instantgram, Meetup, Logo, Main, Headshot };

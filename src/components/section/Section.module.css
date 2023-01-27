@@ -27,5 +27,9 @@
 }
 
 .sectionColorTertiary2 {
-  background-color: #FFFFFF;
+  background-color: var(--section-tertiary2-bg-color);
+}
+
+.sectionColorTertiary3 {
+  background-color: var(--section-tertiary3-bg-color);
 }

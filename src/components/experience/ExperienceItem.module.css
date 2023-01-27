@@ -4,6 +4,7 @@
   padding: 10px 0;
   gap: 20px;
   font-size: 32px;
+  color: var(--section-main-text-color)
 }
 
 .info {

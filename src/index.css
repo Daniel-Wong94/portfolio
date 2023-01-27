@@ -22,8 +22,11 @@ code {
 
   --section-main-bg-color: #D1D1D1;
   --section-main-text-color: #333333;
+  --section-secondary-text-color: #E0E0E0;
 
   --section-secondary-bg-color: #DFDFDF;
 
-  --section-tertiary-bg-color: #f3f3f3;
+  --section-tertiary-bg-color: #f1efef;
+  --section-tertiary2-bg-color: #f7f7f7;
+  --section-tertiary3-bg-color: #000000;
 }
