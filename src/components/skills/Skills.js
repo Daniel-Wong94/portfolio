@@ -33,7 +33,7 @@ const skillItems = [
 
 const Skills = () => {
   return (
-    <Section paddingY="l" bgColor="Secondary">
+    <Section scrollTo={"skills"} paddingY="l" bgColor="Secondary">
       <h1 className={styles.skillsHeading}>Skills</h1>
       <hr className={styles.divider} />
       <div className={styles.skillsContentContainer}>

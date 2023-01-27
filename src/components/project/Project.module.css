@@ -1,0 +1,13 @@
+.projectContentContainer > h1 {
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.projectContainer {
+  display : grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: auto;
+  gap: 200px 40px;
+  margin-top: 100px;
+  color: var(--section-main-text-color);
+}
