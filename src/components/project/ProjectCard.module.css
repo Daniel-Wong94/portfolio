@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 10px;
   transform: scale(1);
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .projectImageContainer {
@@ -20,6 +20,11 @@
   font-size: 32px;
   font-weight: 500;
   line-height: 1.1em;
+}
+
+.projectCardContainer > p {
+  font-size: 18px;
+  line-height: 1.6em;
 }
 
 .linkContainer {
