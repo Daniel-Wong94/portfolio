@@ -33,3 +33,9 @@
 .sectionColorTertiary3 {
   background-color: var(--section-tertiary3-bg-color);
 }
+
+@media screen and (max-width: 1180px) {
+  .paddingYm {
+    padding: 80px 5%;
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "mainSection": {
+    "header": "I'm a Full Stack Software Engineer experienced in JavaScript and Python frameworks.",
+    "about": "Hello! My name is Daniel and I enjoy problem-solving and figuring out how things work. I'm a full stack engineer with an emphasis on frontend development with React. I have a great appreciation for beautiful UI/UX designs and love being a part of that process. When I'm not working on a project, I'm probably trying to beat my scores on the Peloton or planning my next travel destination.",
+    "heroImage": "/static/media/Headshot.6935ef85d30cc758f294.png"
+  },
+  "skillSection": [
+    {
+      "classname": "languages",
+      "name": "Programming Languages",
+      "skills": ["JavaScript(ES6)", "Python", "HTML", "CSS"]
+    },
+    {
+      "classname": "frameworks",
+      "name": "Libraries & Frameworks",
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "Sequelize",
+        "SQLite3",
+        "Flask",
+        "SQLAlchemy",
+        "Alembic",
+        "WebSockets",
+        "Material UI",
+        "Amazon Web Service (AWS)"
+      ]
+    },
+    {
+      "classname": "tools",
+      "name": "Tools & Platforms",
+      "skills": ["Git", "GitHub", "Webpack", "Heroku", "Docker", "Render"]
+    }
+  ],
+  "experienceSection": [
+    {
+      "start": "Feb 2022",
+      "end": "Feb 2023",
+      "name": "App Academy",
+      "description": "One year, Part time Full Stack Software Engineering Bootcamp"
+    },
+    {
+      "start": "July 2017",
+      "end": "Current",
+      "name": "NYU Langone School of Medicine",
+      "description": "Senior MRI Specialist"
+    },
+    {
+      "start": "Sept 2013",
+      "end": "July 2017",
+      "name": "SUNY Stony Brook University",
+      "description": "B.S in Health Science and Minor in Biology"
+    }
+  ],
+  "projectSection": [
+    {
+      "image": "/static/media/DocuSync.d7454fdfcdad47b7ca08.png",
+      "name": "DocuSync",
+      "github": "https://github.com/Daniel-Wong94/google-doc-clone",
+      "liveLink": "https://docusync.onrender.com",
+      "description":
+        "DocuSync is a clone of Google Docs, a collaborative document editing tool that allows multiple users to work on the same document in real-time. It is similar to Google Docs in that it enables users to create, edit, and share documents. It also includes features such as commenting, live chat, and the ability to grant different levels of access to different users. "
+    },
+    {
+      "image": "/static/media/Instantgram.451d84cf5cee8a7742ec.png",
+      "name": "Instantgram",
+      "github": "https://github.com/ouStanleyy/instagram-clone",
+      "liveLink": "https://instagram-clone-6n2p.onrender.com/",
+      "description":
+        "A clone of a popular social media platform, Instagram. Instagram is a social media platform that allows users to share photos and videos, as well as to interact with others through likes, comments, and direct messaging. The app is known for its sleek, user-friendly interface and powerful editing tools that allow users to enhance their photos and videos with filters, stickers, and other creative features."
+    },
+    {
+      "image": "/static/media/Meetup.bbd0a58967c1ae829ace.png",
+      "name": "Let's Meetup",
+      "github": "https://github.com/Daniel-Wong94/meetup_Project",
+      "liveLink": "https://lets-meetup.onrender.com/",
+      "description":
+        "A clone of a popular social media platform, MeetUp. Users on Meetup may host live/virtual events, organize groups, and meet like-minded peers based on interests, hobbies, professions, and more."
+    }
+  ],
+  "links" : {
+    "linkedin" : "https://www.linkedin.com/in/daniel-kachun-wong/",
+    "github": "https://github.com/Daniel-Wong94",
+    "email": "daniel.kachun.wong@gmail.com",
+    "resume": "https://docs.google.com/document/d/e/2PACX-1vSV9UxZ3wF49D_ZhAATLjrxk5d1qzj2kiYa7HIUYuKUu28b8j98KlvdXK3H_JUpocqrPK2F5ABzMx5T/pub"
+  }
+}

@@ -1,6 +1,7 @@
 .projectContentContainer > h1 {
   font-size: 72px;
   font-weight: 800;
+  color: var(--section-main-text-color)
 }
 
 .projectContainer {
@@ -10,4 +11,11 @@
   gap: 200px 40px;
   margin-top: 100px;
   color: var(--section-main-text-color);
+}
+
+@media screen and (max-width: 1180px) {
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+  }
 }

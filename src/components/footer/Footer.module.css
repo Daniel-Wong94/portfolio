@@ -14,11 +14,34 @@
   margin-bottom: 20px;
 }
 
-.footerContentLeft > p {
+.footerContentLeft > p, .footerContentRight > p {
   font-size: 18px;
   line-height: 1.6em;
 }
 
 .footerContentRight {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 1.6em;
+}
+
+.footerContentRight > h4 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1180px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerContentLeft > h3 {
+    font-size: 18px;
+  }
+
+  .break {
+    display: none;
+  }
 }

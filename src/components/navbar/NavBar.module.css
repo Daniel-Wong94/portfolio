@@ -1,5 +1,6 @@
 .navbarContainer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -19,7 +20,7 @@
 .navLinkContainer > a::before {
   content: "";
   position: absolute;
-  bottom: 20px;
+  bottom: -8px;
   left: 0;
   width: 0;
   height: 2px;
@@ -34,4 +35,10 @@
 .navLinkContainer > a:hover::before {
   width: 100%;
   background-color: var(--navlink-hover-color);
+}
+
+@media screen and (max-width: 1180px) {
+  .navbarContainer > a {
+    display: none;
+  }
 }
