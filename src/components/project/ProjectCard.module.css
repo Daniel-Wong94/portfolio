@@ -17,9 +17,13 @@
   line-height: 1.1em;
 }
 
-.projectCardContainer > p, .linkContainer {
+.projectCardContainer > p, .linkContainer, .techStack {
   font-size: 18px;
   line-height: 1.6em;
+}
+
+.techStack {
+  font-weight: 500;
 }
 
 .linkContainer {

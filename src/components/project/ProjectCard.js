@@ -8,8 +8,11 @@ const ProjectCard = ({ project, image }) => {
       </div>
       <h2 className={styles.projectName}>{project.name}</h2>
       <div className={styles.linkContainer}>
-        <a href={project.github}>Github</a>
-        <a href={project.liveLink}>Live Link</a>
+        {Object.entries(project.links).map(([name, url], idx) => (
+          <a href={url} key={idx}>
+            {name}
+          </a>
+        ))}
       </div>
       <p>{project.description}</p>
       <span className={styles.techStack}>{project.tech.join(" · ")}</span>

@@ -60,8 +60,12 @@
       "image": "/static/media/DocuSync.d7454fdfcdad47b7ca08.png",
       "name": "DocuSync",
       "tech": ["React", "Node.js", "Flask", "SQLAlchemy", "Material UI", "WebSockets", "React Quill"],
-      "github": "https://github.com/Daniel-Wong94/google-doc-clone",
-      "liveLink": "https://docusync.onrender.com",
+      "links" :
+        {
+          "GitHub": "https://github.com/Daniel-Wong94/google-doc-clone",
+          "Live Link": "https://docusync.onrender.com"
+        }
+      ,
       "description":
         "DocuSync is a clone of Google Docs, a collaborative document editing tool that allows multiple users to work on the same document in real-time. It is similar to Google Docs in that it enables users to create, edit, and share documents. It also includes features such as commenting, live chat, and the ability to grant different levels of access to different users. "
     },
@@ -69,8 +73,11 @@
       "image": "/static/media/Instantgram.451d84cf5cee8a7742ec.png",
       "name": "Instantgram",
       "tech": ["React", "Node.js", "Flask", "SQLAlchemy", "Amazon Web Service (AWS)", "WebSockets"],
-      "github": "https://github.com/ouStanleyy/instagram-clone",
-      "liveLink": "https://instagram-clone-6n2p.onrender.com/",
+      "links" :
+        {
+          "GitHub": "https://github.com/ouStanleyy/instagram-clone",
+          "Live Link": "https://instagram-clone-6n2p.onrender.com/"
+        },
       "description":
         "A clone of a popular social media platform, Instagram. Instagram is a social media platform that allows users to share photos and videos, as well as to interact with others through likes, comments, and direct messaging. The app is known for its sleek, user-friendly interface and powerful editing tools that allow users to enhance their photos and videos with filters, stickers, and other creative features."
     },
@@ -78,8 +85,11 @@
       "image": "/static/media/Meetup.bbd0a58967c1ae829ace.png",
       "name": "Let's Meetup",
       "tech": ["React", "Express", "Node.js", "Sequelize", "SQLite3", "Google Maps API"],
-      "github": "https://github.com/Daniel-Wong94/meetup_Project",
-      "liveLink": "https://lets-meetup.onrender.com/",
+      "links" :
+        {
+          "GitHub": "https://github.com/Daniel-Wong94/meetup_Project",
+          "Live Link": "https://lets-meetup.onrender.com/"
+        },
       "description":
         "A clone of a popular social media platform, MeetUp. Users on Let's Meetup may host live/online events, organize groups, and meet like-minded peers based on interests, hobbies, professions, and more. Sequelize was used to organize and build the many relationships for the database and React was used for the frontend UI."
     },
@@ -87,8 +97,12 @@
       "image": "/static/media/Meetup.bbd0a58967c1ae829ace.png",
       "name": "Meet Me at Midnight",
       "tech": ["HTML", "CSS", "JavaScript", "Spotify iFrame API"],
-      "github": "https://github.com/Daniel-Wong94/meetup_Project",
-      "liveLink": "https://codepen.io/jackiezen/full/MWBBawb",
+      "links" : {
+        "CodePen": "https://github.com/Daniel-Wong94/meetup_Project",
+        "Live Link": "https://codepen.io/jackiezen/full/MWBBawb"
+      }
+
+    ,
       "description":
         "This project was a collaborative effort between a Designer/Swifty, Jackie Zen, to celebrate Taylor Swift's 10th studio album, \"Midnight\". By utilizing Spotify's iFrame API and CSS animations, the project offers an aesthetic and interactive player of all of Taylor Swift's albums. It creates an immersive experience for users to discover and listen to her music."
     }
