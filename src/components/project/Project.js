@@ -2,10 +2,10 @@ import { Section } from "../section";
 import styles from "./Project.module.css";
 import ProjectCard from "./ProjectCard";
 import ScrollTopBtn from "../../elements/ScrollTopBtn";
-import { data, DocuSync, Instantgram, Meetup } from "../../assets";
+import { data, DocuSync, Instantgram, Meetup, Midnight } from "../../assets";
 
 const Project = () => {
-  const images = [DocuSync, Instantgram, Meetup];
+  const images = [DocuSync, Instantgram, Meetup, Midnight];
 
   return (
     <Section scrollTo="projects" paddingY="m" bgColor="Tertiary2">

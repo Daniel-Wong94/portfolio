@@ -53,8 +53,16 @@
   gap: 20px;
 }
 
-.icons > svg {
+.icons svg {
   height: 32px;
+}
+
+.icons svg path {
+  transition: fill 0.3s ease;
+}
+
+.icons svg:hover path {
+  fill: var(--navlink-hover-color);
 }
 
 .secondaryContentContainer {
@@ -79,7 +87,7 @@
   padding: 12px 62px;
   color: var(--section-main-text-color);
   font-size: 30px;
-  transition: all 0.7s ease;
+  transition: color 0.7s ease, background-color 0.7s ease;
 }
 
 .btnToProjects:hover {

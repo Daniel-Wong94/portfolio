@@ -3,26 +3,21 @@
   flex-direction: column;
   gap: 10px;
   transform: scale(1);
-  transition: all 0.3s ease-in-out;
-}
-
-.projectImageContainer {
-  overflow: hidden;
+  transition: all 0.5s ease-in-out;
 }
 
 .projectImageContainer > img {
   object-fit: contain;
   max-width: 100%;
-  max-height: 100%;
 }
 
-.projectCardContainer > h2 {
+.projectName {
   font-size: 32px;
   font-weight: 500;
   line-height: 1.1em;
 }
 
-.projectCardContainer > p {
+.projectCardContainer > p, .linkContainer {
   font-size: 18px;
   line-height: 1.6em;
 }
@@ -30,9 +25,9 @@
 .linkContainer {
   display: flex;
   gap: 20px;
+  text-decoration: underline;
 }
 
 .projectCardContainer:hover {
   transform: scale(1.05);
-  /* cursor: pointer; */
 }

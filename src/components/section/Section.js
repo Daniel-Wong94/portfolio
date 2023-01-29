@@ -5,7 +5,10 @@ const Section = ({ children, scrollTo, paddingY = "m", bgColor = "Main" }) => {
   const bg = `sectionColor${bgColor}`;
 
   return (
-    <section id={scrollTo} className={styles[padding] + " " + styles[bg]}>
+    <section
+      id={scrollTo}
+      className={styles[padding] + " " + styles[bg] + " " + styles.section}
+    >
       {children}
     </section>
   );

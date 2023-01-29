@@ -32,3 +32,15 @@ code {
   --section-tertiary2-bg-color: #f7f7f7;
   --section-tertiary3-bg-color: #000000;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--navlink-primary-color);
+}
+
+a:hover {
+  color: var(--navlink-hover-color)
+}

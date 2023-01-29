@@ -1,6 +1,7 @@
 import { Section } from "../section";
 import styles from "./Footer.module.css";
 import { data } from "../../assets";
+import { GITHUB_LOGO, LINKEDIN_LOGO } from "../../assets";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className={styles.footerContentLeft}>
           <h3>
             Daniel.Kachun.Wong@
-            <br className={styles.break} />
+            <br />
             gmail.com
           </h3>
           <p>Site was designed by Sidebay Studio and built by me with React.</p>
@@ -24,6 +25,10 @@ const Footer = () => {
             <a href={`mailto:${data["links"].email}?subject="Hello!"`}>Email</a>
             .
           </p>
+          <div className={styles.socialLinksContainer}>
+            <span className={styles.icons}>{GITHUB_LOGO}</span>
+            <span className={styles.icons}>{LINKEDIN_LOGO}</span>
+          </div>
         </div>
       </div>
     </Section>

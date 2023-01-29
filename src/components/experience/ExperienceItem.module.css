@@ -1,5 +1,4 @@
 .experienceItemContainer {
-  /* border: 1px solid red; */
   display: flex;
   padding: 10px 0;
   gap: 20px;
@@ -11,7 +10,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  flex: 2;
+  flex: 3;
 }
 
 .info > p {
@@ -24,7 +23,13 @@
 }
 
 .date {
-  flex: 1;
+  flex: 2;
   line-height: 1.2em;
   font-weight: 500;
+}
+
+@media screen and (max-width: 375px) {
+  .date, .experienceItemContainer {
+    font-size: 24px;
+  }
 }

@@ -33,30 +33,33 @@
       "skills": ["Git", "GitHub", "Webpack", "Heroku", "Docker", "Render"]
     }
   ],
-  "experienceSection": [
-    {
-      "start": "Feb 2022",
-      "end": "Feb 2023",
-      "name": "App Academy",
-      "description": "One year, Part time Full Stack Software Engineering Bootcamp"
-    },
-    {
-      "start": "July 2017",
-      "end": "Current",
-      "name": "NYU Langone School of Medicine",
-      "description": "Senior MRI Specialist"
-    },
-    {
-      "start": "Sept 2013",
-      "end": "July 2017",
-      "name": "SUNY Stony Brook University",
-      "description": "B.S in Health Science and Minor in Biology"
-    }
-  ],
+  "experienceSection": {
+    "description": "Although I loved health care and treating patients, there was still something missing from my career. I always found the greatest joy when I am able to create something. Whether it's my photography, cooking, or cycling; seeing my effort turn into something beautiful or useful to others is what truly gives me meaning.",
+    "experiences" : [
+      {
+        "start": "Feb '22",
+        "end": "Feb '23",
+        "name": "App Academy",
+        "description": "One year, Part time Full Stack Software Engineering Bootcamp"
+      },
+      {
+        "start": "July '17",
+        "end": "Present",
+        "name": "NYU Langone School of Medicine",
+        "description": "Senior MRI Specialist"
+      },
+      {
+        "start": "Sept '13",
+        "end": "July '17",
+        "name": "Stony Brook University",
+        "description": "B.S in Health Science and Minor in Biology"
+      }
+    ]},
   "projectSection": [
     {
       "image": "/static/media/DocuSync.d7454fdfcdad47b7ca08.png",
       "name": "DocuSync",
+      "tech": ["React", "Node.js", "Flask", "SQLAlchemy", "Material UI", "WebSockets", "React Quill"],
       "github": "https://github.com/Daniel-Wong94/google-doc-clone",
       "liveLink": "https://docusync.onrender.com",
       "description":
@@ -65,6 +68,7 @@
     {
       "image": "/static/media/Instantgram.451d84cf5cee8a7742ec.png",
       "name": "Instantgram",
+      "tech": ["React", "Node.js", "Flask", "SQLAlchemy", "Amazon Web Service (AWS)", "WebSockets"],
       "github": "https://github.com/ouStanleyy/instagram-clone",
       "liveLink": "https://instagram-clone-6n2p.onrender.com/",
       "description":
@@ -73,10 +77,20 @@
     {
       "image": "/static/media/Meetup.bbd0a58967c1ae829ace.png",
       "name": "Let's Meetup",
+      "tech": ["React", "Express", "Node.js", "Sequelize", "SQLite3", "Google Maps API"],
       "github": "https://github.com/Daniel-Wong94/meetup_Project",
       "liveLink": "https://lets-meetup.onrender.com/",
       "description":
-        "A clone of a popular social media platform, MeetUp. Users on Meetup may host live/virtual events, organize groups, and meet like-minded peers based on interests, hobbies, professions, and more."
+        "A clone of a popular social media platform, MeetUp. Users on Let's Meetup may host live/online events, organize groups, and meet like-minded peers based on interests, hobbies, professions, and more. Sequelize was used to organize and build the many relationships for the database and React was used for the frontend UI."
+    },
+    {
+      "image": "/static/media/Meetup.bbd0a58967c1ae829ace.png",
+      "name": "Meet Me at Midnight",
+      "tech": ["HTML", "CSS", "JavaScript", "Spotify iFrame API"],
+      "github": "https://github.com/Daniel-Wong94/meetup_Project",
+      "liveLink": "https://codepen.io/jackiezen/full/MWBBawb",
+      "description":
+        "This project was a collaborative effort between a Designer/Swifty, Jackie Zen, to celebrate Taylor Swift's 10th studio album, \"Midnight\". By utilizing Spotify's iFrame API and CSS animations, the project offers an aesthetic and interactive player of all of Taylor Swift's albums. It creates an immersive experience for users to discover and listen to her music."
     }
   ],
   "links" : {

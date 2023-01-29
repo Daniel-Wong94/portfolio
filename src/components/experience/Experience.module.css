@@ -1,21 +1,16 @@
 .experienceContentContainer {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 40px;
 }
 
 .timeline {
-  flex: 3;
+  align-self: flex-end;
 }
 
 .experienceContentRight {
-  flex: 2;
+  flex: 1;
   color: var(--section-main-text-color)
-}
-
-.experienceContentRight > h1 {
-  font-size: 72px;
-  font-weight: 800;
 }
 
 .experienceContentRight > p {
@@ -27,11 +22,7 @@
 @media screen and (max-width: 1180px) {
   .experienceContentContainer {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 24px;
-  }
-
-  .experienceContentRight > h1 {
-    font-size: 56px;
   }
 }

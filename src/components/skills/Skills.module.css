@@ -49,14 +49,12 @@
   }
 
   .contact {
-    padding-top: 80px;
+    padding-top: 100px;
   }
+}
 
+@media screen and (max-width: 1460px) {
   .contact > h4{
     font-size: 18px;
-  }
-
-  .break {
-    display: none;
   }
 }
