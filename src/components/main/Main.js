@@ -1,10 +1,9 @@
 import styles from "./Main.module.css";
 import { Section } from "../section";
-import { data, GITHUB_LOGO, LINKEDIN_LOGO } from "../../assets";
+import { data, GITHUB_LOGO } from "../../assets";
 import { Headshot } from "../../assets";
 
 const Main = () => {
-  console.log("HERE", Headshot);
   return (
     <Section paddingY="m" bgColor="Main">
       <div className={styles.mainContentContainer}>
