@@ -45,11 +45,7 @@
   color: var(--section-main-text-color)
 }
 
-@media screen and (max-width: 1180px) {
-  .paddingYm {
-    padding: 80px 5%;
-  }
-
+@media screen and (max-width: 1920px) {
   .section h1 {
     font-size: 52px;
   }

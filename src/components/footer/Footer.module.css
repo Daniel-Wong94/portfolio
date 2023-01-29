@@ -4,21 +4,19 @@
   color: var(--section-secondary-text-color);
 }
 
-.footerContentLeft {
-  flex: 1;
-}
-
-.footerContentLeft > h3 {
-  font-size: 40px;
+.footerContainer h3 {
+  font-size: 32px;
   font-weight: 600;
   margin-bottom: 20px;
+  line-height: 1em;
 }
 
-.footerContentLeft > p, .footerContentRight > p {
+.footerContentContainer > p {
   font-size: 18px;
   line-height: 1.6em;
 }
 
+.footerContentLeft,
 .footerContentRight {
   flex: 1;
   display: flex;
@@ -27,13 +25,8 @@
   line-height: 1.6em;
 }
 
-.footerContentRight > h4 {
-  font-size: 40px;
-  font-weight: 600;
-}
-
 .icons svg {
-  height: 32px;
+  height: 18px;
   margin-right: 20px;
 }
 

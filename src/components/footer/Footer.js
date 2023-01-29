@@ -16,7 +16,7 @@ const Footer = () => {
           <p>Site was designed by Sidebay Studio and built by me with React.</p>
         </div>
         <div className={styles.footerContentRight}>
-          <h4>Get In Touch</h4>
+          <h3>Get In Touch</h3>
           <p>
             I'm currently looking for an opportunity to join a team that
             promotes learning, collaboration, and mentorship. If that sounds
