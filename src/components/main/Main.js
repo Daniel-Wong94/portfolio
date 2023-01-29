@@ -1,13 +1,15 @@
 import styles from "./Main.module.css";
 import { Section } from "../section";
 import { data, GITHUB_LOGO, LINKEDIN_LOGO } from "../../assets";
+import { Headshot } from "../../assets";
 
 const Main = () => {
+  console.log("HERE", Headshot);
   return (
     <Section paddingY="m" bgColor="Main">
       <div className={styles.mainContentContainer}>
         <div className={styles.mainImageContainer}>
-          <img src={data["mainSection"].heroImage} alt="head shot of daniel" />
+          <img src={Headshot} alt="head shot of daniel" />
         </div>
         <div className={styles.mainContentRight}>
           <h1>Daniel Wong</h1>
