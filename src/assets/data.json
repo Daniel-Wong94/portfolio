@@ -99,9 +99,7 @@
       "tech": ["HTML", "CSS", "JavaScript", "Spotify iFrame API"],
       "links" : {
         "Code Pen": "https://codepen.io/jackiezen/full/MWBBawb"
-      }
-
-    ,
+      },
       "description":
         "This project was a collaborative effort between a Designer/Swifty, Jackie Zen, to celebrate Taylor Swift's 10th studio album, \"Midnight\". By utilizing Spotify's iFrame API and CSS animations, the project offers an aesthetic and interactive player of all of Taylor Swift's albums. It creates an immersive experience for users to discover and listen to her music."
     }
