@@ -39,10 +39,25 @@
   background-color: var(--section-tertiary3-bg-color);
 }
 
+.section {
+  overflow: hidden;
+}
+
 .section h1 {
   font-size: 72px;
   font-weight: 800;
   color: var(--section-main-text-color)
+}
+
+.section > div {
+  opacity: 0;
+  transform: translateX(30%);
+  transition: all 1s ease;
+}
+
+.section > div.fadeToLeft {
+  opacity: 1 ;
+  transform: translateX(0);
 }
 
 @media screen and (max-width: 1920px) {
