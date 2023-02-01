@@ -21,7 +21,6 @@ const App = () => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList = styles.fadeToLeft;
-        console.log("adding class");
         observer.unobserve(entry.target);
       }
     });
