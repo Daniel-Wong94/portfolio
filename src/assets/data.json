@@ -21,16 +21,26 @@
         "SQLite3",
         "Flask",
         "SQLAlchemy",
-        "Alembic",
         "WebSockets",
         "Material UI",
-        "Amazon Web Service (AWS)"
+        "React Quill"
+      ]
+    },
+    {
+      "classname": "apis",
+      "name": "APIs",
+      "skills": [
+        "Alembic",
+        "Flask-SocketIO",
+        "Google Maps API",
+        "Socket.IO Client",
+        "AWS S3"
       ]
     },
     {
       "classname": "tools",
       "name": "Tools & Platforms",
-      "skills": ["Git", "GitHub", "Webpack", "Heroku", "Docker", "Render"]
+      "skills": ["Git", "npm", "GitHub", "Webpack", "Heroku", "Docker", "Render"]
     }
   ],
   "experienceSection": {
@@ -40,7 +50,7 @@
         "start": "Feb '22",
         "end": "Feb '23",
         "name": "App Academy",
-        "description": "One year, Part time Full Stack Software Engineering Bootcamp"
+        "description": "Full Stack Software Engineering Bootcamp"
       },
       {
         "start": "July '17",

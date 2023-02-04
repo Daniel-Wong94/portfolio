@@ -9,7 +9,7 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "languages frameworks contact" "tools . contact";
+  grid-template-areas: "languages frameworks contact" "tools apis contact";
   gap: 75px 125px;
   margin-top: 100px;
 }
@@ -20,6 +20,10 @@
 
 .frameworks {
   grid-area: frameworks;
+}
+
+.apis {
+  grid-area: apis;
 }
 
 .tools {
