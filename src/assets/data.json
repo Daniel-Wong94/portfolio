@@ -1,7 +1,8 @@
 {
   "mainSection": {
     "header": "I'm a Full Stack Software Engineer experienced in JavaScript and Python frameworks.",
-    "about": "Hello! My name is Daniel and I enjoy problem-solving and figuring out how things work. I'm a full stack engineer with an emphasis on frontend development with React. I have a great appreciation for beautiful UI/UX design and love being a part of that process. When I'm not working on a project, I'm probably trying to beat my scores on the Peloton or planning my next travel destination.",
+    "aboutFrontend": "Hello! My name is Daniel and I enjoy problem-solving and figuring out how things work. I'm a full stack engineer with an emphasis on frontend development with React. I have a great appreciation for beautiful UI/UX design and love being a part of that process. When I'm not working on a project, I'm probably trying to beat my scores on the Peloton or planning my next travel destination.",
+    "about": "Hello! My name is Daniel and I enjoy problem-solving and figuring out how things work. I have a passion for innovation and technology and am motivated by the endless possibilities it presents for solving real-world problems and making a positive impact.  When I'm not working on a project, I'm probably trying to beat my scores on the Peloton or planning my next travel destination.",
     "heroImage": "/static/media/Headshot.6935ef85d30cc758f294.png"
   },
   "skillSection": [
