@@ -7,7 +7,7 @@ const Section = ({
   scrollTo,
   paddingY = "m",
   bgColor = "Main",
-  fade = true,
+  // fade = true,
 }) => {
   const padding = `paddingY${paddingY}`;
   const bg = `sectionColor${bgColor}`;
@@ -17,8 +17,9 @@ const Section = ({
 
   // on initial render, observe the div
   useEffect(() => {
-    if (fade) observer.observe(sectionContentRef.current);
-  }, [observer, fade]);
+    // if (fade) observer.observe(sectionContentRef.current);
+    observer.observe(sectionContentRef.current);
+  }, [observer]);
 
   return (
     <section

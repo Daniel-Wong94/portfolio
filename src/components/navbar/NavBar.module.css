@@ -14,7 +14,7 @@
   text-decoration: none;
   color: var(--navlink-primary-color);
   transition: color 0.7s ease;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .navLinkContainer > a::before, .dropDown > a::before {
@@ -38,11 +38,17 @@
 }
 
 @media screen and (max-width: 599px) {
-  .navLinkContainer > a {
+  /* .navLinkContainer > a {
     display: none;
+  } */
+
+  .navbarContainer {
+    flex-direction: column-reverse;
+    gap: 20px;
   }
 
-  .hamburger {
+
+  /* .hamburger {
     width: 40px;
     height: 40px;
     position: relative;
@@ -75,10 +81,9 @@
   .dropDown {
     position: absolute;
     display: flex;
-    flex-direction: column;
     gap: 12px;
-    bottom: -100px;
+    top: 60px;
     left: 0px;
-  }
+  } */
 
 }
