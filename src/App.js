@@ -14,7 +14,7 @@ const App = () => {
   const options = {
     root: null,
     rootMargin: "10px",
-    threshold: 0.2,
+    threshold: 0.1,
   };
 
   const callback = (entries, observer) => {
