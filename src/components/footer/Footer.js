@@ -21,7 +21,14 @@ const Footer = () => {
             I'm currently looking for an opportunity to join a team that
             promotes learning, collaboration, and mentorship. If that sounds
             like you, please feel free to contact me. You can best reach me via{" "}
-            <a href={data["links"].linkedin}>LinkedIn</a> or by{" "}
+            <a
+              href={data["links"].linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>{" "}
+            or by{" "}
             <a href={`mailto:${data["links"].email}?subject="Hello!"`}>Email</a>
             .
           </p>

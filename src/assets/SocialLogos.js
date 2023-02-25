@@ -1,7 +1,7 @@
 import data from "./data.json";
 
 const GITHUB_LOGO = (
-  <a href={data["links"].github}>
+  <a href={data["links"].github} target="_blank" rel="noopener noreferrer">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -17,7 +17,7 @@ const GITHUB_LOGO = (
 );
 
 const LINKEDIN_LOGO = (
-  <a href={data["links"].linkedin}>
+  <a href={data["links"].linkedin} target="_blank" rel="noopener noreferrer">
     <svg viewBox="0 50 512 512">
       <path
         fill="#333333"

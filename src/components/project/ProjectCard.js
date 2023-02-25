@@ -9,7 +9,7 @@ const ProjectCard = ({ project, image }) => {
       <h2 className={styles.projectName}>{project.name}</h2>
       <div className={styles.linkContainer}>
         {Object.entries(project.links).map(([name, url], idx) => (
-          <a href={url} key={idx}>
+          <a href={url} key={idx} target="_blank" rel="noopener noreferrer">
             {name}
           </a>
         ))}

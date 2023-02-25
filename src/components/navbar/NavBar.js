@@ -13,28 +13,21 @@ const NavBar = () => {
     <Section scrollTo="top" paddingY="xs" bgColor="Main">
       <nav className={styles.navbarContainer}>
         <div className={styles.navLinkContainer}>
-          {/* <div
-            className={
-              styles.hamburger + " " + styles[dropdownIsOpen && "open"]
-            }
-            onClick={toggleDropdown}
-          >
-            <div className={styles.hamburgerBar}></div>
-            <div className={styles.hamburgerBar}></div>
-            <div className={styles.hamburgerBar}></div>
-            {dropdownIsOpen && (
-              <div className={styles.dropDown}>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href={data["links"].resume}>Resume</a>
-              </div>
-            )}
-          </div> */}
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
-          <a href={data["links"].resume}>Resume</a>
+          <a
+            href={data["links"].resume}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </div>
-        <a href={data["links"].resume}>
+        <a
+          href={data["links"].resume}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             className={styles.logo}
             src={Logo}
