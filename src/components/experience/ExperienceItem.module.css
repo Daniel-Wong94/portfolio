@@ -13,18 +13,13 @@
   flex: 3;
 }
 
-.info > p {
+.info > p, .date {
   font-size: 18px;
   line-height: 1.6em;
 }
 
-.info > h4 {
+.info > h4, .date {
   font-weight: 500;
-}
-
-.date {
-  flex: 2;
-  line-height: 1.2em;
 }
 
 @media screen and (max-width: 375px) {

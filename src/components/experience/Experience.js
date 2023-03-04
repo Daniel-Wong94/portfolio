@@ -2,6 +2,7 @@ import { Section } from "../section";
 import ExperienceItem from "./ExperienceItem";
 import styles from "./Experience.module.css";
 import { data } from "../../assets";
+import ScrollTopBtn from "../../elements/ScrollTopBtn";
 
 const Experience = () => {
   return (
@@ -10,6 +11,7 @@ const Experience = () => {
         <div className={styles.experienceContentRight}>
           <h1>Experiences</h1>
           <hr />
+          <ScrollTopBtn />
           <p>{data["experienceSection"].description} </p>
         </div>
         <ul className={styles.timeline}>
